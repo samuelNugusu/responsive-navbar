@@ -25,7 +25,7 @@ Built using HTML5, CSS3 (Flexbox + Media Queries), and Vanilla JavaScript.
 
 ---
 ▶️ Live Demo
-👉 [View on GitHub Pages](https://samuelNugusu.github.io/responsive-navbar)  
+👉 [View on GitHub Pages](https://samuelnugusu.github.io/responsive-navbar/))  
 
 ---
 
