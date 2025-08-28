@@ -4,14 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Navigation Bar</title>
+  <title>SamuelCode</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
 </head>
 
 <body>
+
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Navbar -->
   <nav>
-    <h1 class="logo">SamuelCode</h1>
+    <div class="logo">SamuelCode</div>
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">Services</a></li>
@@ -19,8 +23,6 @@
       <li><a href="#">Feedback</a></li>
       <li><a href="#">Login</a></li>
     </ul>
-
-    <!-- Hamburger Icon -->
     <div class="hamburger">
       <span></span>
       <span></span>
@@ -28,10 +30,7 @@
     </div>
   </nav>
 
-  <!-- Overlay (hidden by default) -->
-  <div class="overlay"></div>
-
-  <!-- Sidebar Menu -->
+  <!-- Sidebar -->
   <ul class="sidebar">
     <li><a href="#">Home</a></li>
     <li><a href="#">Services</a></li>
@@ -39,6 +38,8 @@
     <li><a href="#">Feedback</a></li>
     <li><a href="#">Login</a></li>
   </ul>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

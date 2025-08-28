@@ -165,15 +165,13 @@ nav {
   pointer-events: auto;
 }
 
-/* ✅ Responsive */
-@media(max-width: 768px) {
+/* Responsive */
+@media (max-width: 768px) {
   .nav-links {
     display: none;
-    /* hide desktop nav */
   }
 
   .hamburger {
     display: flex;
-    /* show hamburger */
   }
 }

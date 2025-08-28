@@ -8,14 +8,14 @@ hamburger.addEventListener("click", () => {
   overlay.classList.toggle("active");
 });
 
-// Close sidebar when clicking overlay
+// Close menu when clicking overlay
 overlay.addEventListener("click", () => {
   hamburger.classList.remove("active");
   sidebar.classList.remove("active");
   overlay.classList.remove("active");
 });
 
-// Close sidebar when clicking a link
+// Close menu when clicking a link
 document.querySelectorAll(".sidebar a").forEach(link => {
   link.addEventListener("click", () => {
     hamburger.classList.remove("active");
